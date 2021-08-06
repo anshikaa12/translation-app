@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&display=swap');
+
+body{
+    /* background-image: url("images/got2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cinzel', serif; */
+  background-color: black;
+}
+
+header{
+    text-align: center;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 100px;
+    height: 80vh;
+    align-items: left;
+    
+}
+#container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    margin-left: 100px;
+    height: 40vh;
+    align-items: center;
+    
+}
+#container2{
+   
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+#container3{
+    padding-left: 75vh;
+    display:flex;
+    flex-direction: row;
+    justify-content:stretch;
+    width: 40%;
+    margin-left: 100px;
+    height: 30vh;
+    align-items: center;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+textarea{
+    height:100px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    
+    padding:5px;
+    background-color:rgba(233, 238, 241, 0.5);
+    /* opacity: 0.5;  */
+    
+}
+textarea::placeholder{
+    color: black;
+}
+button{
+    background-color: none;
+    box-shadow: none;
+    border: 2px solid rgba(0, 0, 255, 0);
+   
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:white;
+    border: 2px solid rgba(0, 0, 0, 0.733);
+    font-family: inherit;
+    font-weight:larger;
+    color:black;
+}
+footer{
+    color: white;
+    text-align: center;
+  margin-top: 50px;
+}
+h3{
+    margin: 0px 0px 0px 0px;
+}
+p{
+    color: white;
+}
